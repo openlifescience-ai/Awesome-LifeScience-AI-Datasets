@@ -1,0 +1,11 @@
+EmployeeID,FirstName,LastName,Gender,Age,Department,YearsInCompany,PerformanceRating,Salary,HoursWorkedPerWeek,ProjectsCompleted
+2001,John,Doe,Male,35,Sales,5,4,55000,45,10
+2002,Jane,Smith,Female,28,Marketing,3,3,48000,40,8
+2003,Michael,Johnson,Male,42,Finance,10,5,72000,50,15
+2004,Emily,Williams,Female,31,Engineering,6,4,60000,42,12
+2005,David,Brown,Male,39,Human Resources,7,3,52000,38,9
+2006,Anna,Miller,Female,29,Marketing,4,3,49000,40,7
+2007,Robert,Jones,Male,47,Sales,12,5,75000,48,18
+2008,Sarah,Anderson,Female,33,Engineering,8,4,63000,44,14
+2009,William,White,Male,36,Finance,9,4,68000,46,16
+2010,Linda,Clark,Female,27,Human Resources,2,2,45000,35,6

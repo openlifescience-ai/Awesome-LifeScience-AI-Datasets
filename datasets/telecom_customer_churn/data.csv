@@ -1,0 +1,11 @@
+CustomerID,Gender,Age,MaritalStatus,Dependents,MonthlyIncome,ContractDuration,DataUsage,MonthlyCharge,TotalCharges,ServiceSupportCalls,Churn
+1001,Male,32,Single,0,4500,12,15,50,600,2,No
+1002,Female,28,Married,2,5200,24,25,70,1680,0,No
+1003,Male,45,Married,3,6000,36,30,80,2880,1,No
+1004,Female,22,Single,0,3200,6,10,45,270,3,Yes
+1005,Male,38,Married,1,7000,24,20,65,1560,2,No
+1006,Female,55,Divorced,0,8000,12,18,60,720,1,No
+1007,Male,60,Married,2,8500,24,22,75,1800,0,No
+1008,Female,42,Married,4,5500,12,12,55,660,4,Yes
+1009,Male,30,Single,0,4000,6,8,40,240,2,Yes
+1010,Female,50,Married,2,7500,18,20,70,1260,1,No

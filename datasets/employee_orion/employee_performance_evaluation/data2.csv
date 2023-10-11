@@ -1,0 +1,11 @@
+EmployeeID,FirstName,LastName,Gender,Age,Department,YearsInCompany,PerformanceRating,Salary,HoursWorkedPerWeek,ProjectsCompleted
+2101,Mark,Johnson,Male,34,Engineering,7,4,62000,42,12
+2102,Emma,Anderson,Female,30,Finance,6,3,54000,38,9
+2103,Christopher,Smith,Male,40,Marketing,9,5,70000,45,15
+2104,Olivia,Brown,Female,29,Engineering,5,4,61000,40,11
+2105,James,Davis,Male,37,Human Resources,8,3,52000,36,8
+2106,Isabella,Moore,Female,31,Marketing,4,3,50000,38,7
+2107,Michael,Wilson,Male,45,Sales,11,5,75000,48,16
+2108,Emily,Thomas,Female,35,Finance,7,4,65000,42,13
+2109,Matthew,Jackson,Male,39,Human Resources,8,4,68000,44,15
+2110,Sophia,Roberts,Female,26,Engineering,3,2,46000,35,6

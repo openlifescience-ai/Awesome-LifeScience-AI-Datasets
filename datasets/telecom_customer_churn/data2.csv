@@ -1,0 +1,11 @@
+CustomerID,Gender,Age,MaritalStatus,Dependents,MonthlyIncome,ContractDuration,DataUsage,MonthlyCharge,TotalCharges,ServiceSupportCalls,Churn
+3001,Female,42,Married,2,5800,18,20,70,1260,0,No
+3002,Male,29,Single,0,4200,12,15,50,600,2,No
+3003,Female,38,Married,1,6300,24,25,80,1920,1,No
+3004,Male,25,Single,0,3600,6,10,45,270,3,Yes
+3005,Female,53,Married,3,7200,36,30,85,3060,0,No
+3006,Male,56,Divorced,0,8000,24,22,75,1800,2,No
+3007,Female,47,Married,2,6800,12,18,65,780,1,No
+3008,Male,31,Single,0,4500,6,8,40,240,4,Yes
+3009,Female,49,Married,2,7500,18,20,70,1260,0,No
+3010,Male,27,Single,0,4000,12,12,55,660,3,Yes

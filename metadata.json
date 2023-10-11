@@ -1,0 +1,69 @@
+[
+    {
+        "id": "employee_performance_evaluation",
+        "name": "EmployeePerformanceEvaluation",
+        "group_name": "employee_orion",
+        "description": {
+            "homepage": "google.com",
+            "repository": "github.com",
+            "paper": "arxvi.com",
+            "leaderboard": "sample.com",
+            "point_of_contact": "name - email"
+        },
+        "tasks": ["PET Scan Analysis", "X-ray Analysis", "CT Scan Analysis"],
+        "modalites": ["images"],
+        "models": [
+            {
+                "name": "model 1",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "model 2",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            }
+        ],
+        "datasets": [
+            "data1.csv",
+            "data2.csv"
+        ],
+        "source": "https://huggingface.co/openai/whisper-large-v2",
+        "license": "BSL-1.0"
+    },
+    {
+        "id": "telecom_customer_churn",
+        "name": "Telecom-Customer-Churn",
+        "description": {
+            "homepage": "google.com",
+            "repository": "github.com",
+            "paper": "arxvi.com",
+            "leaderboard": "sample.com",
+            "point_of_contact": "name - email"
+        },
+        "tasks": ["Lab Test Result Interpretation"],
+        "modalites": ["texts"],
+        "models": [
+            {
+                "name": "model 1",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "model 2",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "model 3",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            },
+            {
+                "name": "model 4",
+                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+            }
+        ],
+        "datasets": [
+            "data.csv",
+            "data2.csv"
+        ],
+        "source": "https://www.kaggle.com/models/tatsu-lab/alpaca",
+        "license": "APSL-2.0"
+    }
+]
