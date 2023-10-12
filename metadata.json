@@ -11,7 +11,7 @@
             "point_of_contact": "name - email"
         },
         "tasks": ["PET Scan Analysis", "X-ray Analysis", "CT Scan Analysis"],
-        "modalites": ["images"],
+        "modalities": ["images"],
         "models": [
             {
                 "name": "model 1",
@@ -26,7 +26,10 @@
             "data1.csv",
             "data2.csv"
         ],
-        "source": "https://huggingface.co/openai/whisper-large-v2",
+        "source": {
+            "name": "Huggingface",
+            "url": "https://huggingface.co/openai/whisper-large-v2"
+        },
         "license": "BSL-1.0"
     },
     {
@@ -40,7 +43,7 @@
             "point_of_contact": "name - email"
         },
         "tasks": ["Lab Test Result Interpretation"],
-        "modalites": ["texts"],
+        "modalities": ["texts"],
         "models": [
             {
                 "name": "model 1",
@@ -63,7 +66,10 @@
             "data.csv",
             "data2.csv"
         ],
-        "source": "https://www.kaggle.com/models/tatsu-lab/alpaca",
+        "source": {
+            "name": "Kaggle",
+            "url": "https://www.kaggle.com/models/tatsu-lab/alpaca"
+        },
         "license": "APSL-2.0"
     }
 ]
