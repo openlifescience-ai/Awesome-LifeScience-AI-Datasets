@@ -1,19 +1,28 @@
-# .github/scripts/update_readme.py
 import json
 
-# Load metadata.json
-with open('metadata.json', 'r') as f:
+# Read the metadata.json file
+with open("metadata.json", "r") as f:
     data = json.load(f)
 
-# Construct the table for README.md
-table = """
-| Name | Source Name | Source URL |
-|------|-------------|------------|
-"""
+# Create a markdown table header
+table = "| Name | Source Name | Source URL |\n"
+table += "|------|-------------|------------|\n"
 
-for entry in data:
-    table += f"| {entry['name']} | {entry['source']['name']} | [{entry['source']['url']}]({entry['source']['url']}) |\n"
+# Populate the table rows with the 'name' and 'source' information
+for item in data:
+    name = item["name"]
+    source_name = item["source"]["name"]
+    source_url = item["source"]["url"]
+    table += f"| {name} | {source_name} | [Link]({source_url}) |\n"
 
-# Update README.md
-with open('README.md', 'w') as f:
-    f.write(table)
+# Update the README.md file
+readme_path = "README.md"
+with open(readme_path, "r") as file:
+    readme_content = file.readlines()
+
+insert_index = readme_content.index("# Models\n") + 1
+readme_content = readme_content[:insert_index] + [table] + readme_content[insert_index:]
+
+# Write the updated content back to README.md
+with open(readme_path, "w") as file:
+    file.writelines(readme_content)
