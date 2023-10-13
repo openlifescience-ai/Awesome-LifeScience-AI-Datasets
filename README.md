@@ -1,2 +1,4 @@
-# Awesome-LifeScience-AI-Datasets
-A curated collection of high-quality life science datasets optimized for AI and machine learning research and applications.
+| Name | Source |
+| --- | --- |
+| EmployeePerformanceEvaluation | [Huggingface](https://huggingface.co/openai/whisper-large-v2) |
+| Telecom-Customer-Churn | [Kaggle](https://www.kaggle.com/models/tatsu-lab/alpaca) |
