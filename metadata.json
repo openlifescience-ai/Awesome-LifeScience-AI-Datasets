@@ -59,7 +59,7 @@
             },
             {
                 "name": "model 4",
-                "url": "https://huggingface.co/datasets/bigcode/the-stack"
+                "url": "https://huggingface.co/datasets/bigcode/the-stacks"
             }
         ],
         "datasets": [
